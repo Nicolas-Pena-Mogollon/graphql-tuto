@@ -70,7 +70,35 @@
        <br>
     <dd><b>3.8.</b> En el url que pego en el navegador puede realizar las operaciones (mutaciones):
     addMovie, updateMovie y deleteMovie. Y peticiones (query): getMovie y getMovies. </dd>
-aqui van fotitos
+      <br>
+      <dd>Aqui un ejemplo de mutación de agregar una pelicula</dd>
+      <br>
+    <img src="./ResourcesReadme/addMovie.jpg" align="center">
+       <br>
+       <br>
+      <dd>Aqui un ejemplo de query de buscar todas las peliculas</dd>
+      <br>
+    <img src="./ResourcesReadme/search.jpg" align="center">
+       <br>
+       <br>
+       <dd>Aqui un ejemplo de mutación de actualizar una pelicula</dd>
+      <br>
+    <img src="./ResourcesReadme/update.jpg" align="center">
+       <br>
+       <br>
+    <dd><b>3.9. </b> Si ingresa a MongoDB y le da en la pestaña refrescar podra ver cada vez que se
+    añade, actualiza o elimina un dato del servidor.
+    <br>
+    <dd>Este es MongoDB despúes de agregar una pelicula</dd>
+      <br>
+    <img src="./ResourcesReadme/addmongodb.jpg" align="center">
+       <br>
+       <br>
+    <dd>Este es MongoDB despúes de actualizar una pelicula</dd>
+      <br>
+    <img src="./ResourcesReadme/mongodb.jpg" align="center">
+       <br>
+       <br>
 </dl>
 </html>
     

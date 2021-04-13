@@ -73,6 +73,7 @@
        <br>
     <dd><b>3.8.</b> En el url que pego en el navegador puede realizar las operaciones (mutaciones):
     addMovie, updateMovie y deleteMovie. Y peticiones (query): getMovie y getMovies. </dd>
+aqui van fotitos
 </dl>
 </html>
     

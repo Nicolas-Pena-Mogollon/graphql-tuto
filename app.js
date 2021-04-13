@@ -18,7 +18,7 @@ connect.then((db) => {
 	console.log(err);
 });
 /*
-	Se crea una instancia de ApolloServer, que será el que a
+	Se crea una instancia de ApolloServer con los tipos definidos y los resolvers
 	API Reference at https://www.apollographql.com/docs/apollo-server/api/apollo-server/
  */
 const server = new ApolloServer({

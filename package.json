@@ -1,19 +1,20 @@
 {
-  "name": "graphql-tuto",
-  "version": "1.0.0",
-  "description": "Ejemplo de uso de GraphQL",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Nico",
-  "license": "ISC",
-  "dependencies": {
-    "apollo-server-express": "^2.22.2",
-    "body-parser": "^1.19.0",
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "graphql": "^15.5.0",
-    "mongoose": "^5.12.3"
-  }
+	"name": "graphql-tuto",
+	"version": "1.0.0",
+	"description": "Ejemplo de uso de GraphQL",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Nicolas Peña Mogollón - María Camila Lozano Gutiérrez",
+	"license": "ISC",
+	"dependencies": {
+		"apollo-server-express": "^2.22.2",
+		"body-parser": "^1.19.0",
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"graphql": "^15.5.0",
+		"mongoose": "^5.12.3",
+		"save": "^2.4.0"
+	}
 }

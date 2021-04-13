@@ -72,14 +72,18 @@ const resolvers = {
 		// Busca una película por ID y la elimina
 		deleteMovie: (parent, args) => {
 			if (!args.id) return;
-			return Movie.findByIdAndRemove({
-				_id: args.id
-			},
-				function(err, Movie) {
-					if (err) {
-						return console.log(err);
-					}
-				});
+			var movie = Movie.findById(args.id);
+			movie.then(() => {
+				Movie.findByIdAndRemove({
+					_id: args.id
+				},
+					function(err, Movie) {
+						if (err) {
+							return console.log(err);
+						}
+					});
+			});
+			return movie;
 		}
 	}
 }

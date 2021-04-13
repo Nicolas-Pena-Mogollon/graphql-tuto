@@ -6,14 +6,11 @@
 	<br>
 	<dd><b>1.1</b>. Nicolás Peña Mogollón</dd>
 	<dd><b>1.2</b>. María Camila Lozano Gutierrez</dd>
-	<br>
 <dt><em> 2. Link del repositorio de github para clonar</em></dt>
 	<br>
 	<dd>https://github.com/Nicolas-Pena-Mogollon/graphql-tuto.git</dd>
-	<br>
 <dt><em> 3. Instrucciones de Uso</em></dt>
     <dd	><b>3.1.</b> Primero, clone el repositorio en la ubicación de su preferencia.</dd>
-    <br>
     <dd><b>3.2.</b> Usando la consola o terminal, descargue las siguientes librerias con los
     siguientes comandos en la ubicación del proyecto: </dd>
        <dd><b>-</b> npm install express -- save </dd>
